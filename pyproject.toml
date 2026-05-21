@@ -1,2 +1,11 @@
+[project]
+name = "ezyzip"
+version = "0.1.0"
+dependencies = [
+    "Flask",
+    "gunicorn",
+    "mysql-connector-python"
+]
+
 [tool.vercel]
 entrypoint = "backend:app"
